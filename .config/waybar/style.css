@@ -27,7 +27,7 @@ window#waybar {
 #workspaces,
 #clock,
 #tray,
-#keyboard-state,
+#language,
 #battery,
 #custom-power {
     background: @bg;

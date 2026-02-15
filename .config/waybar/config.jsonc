@@ -13,6 +13,7 @@
     "modules-right": [
         "tray",
         "keyboard-state",
+        "hyprland/language",
         "battery",
         "custom/power"
     ],
@@ -34,10 +35,15 @@
 
     "clock": {
         "format": "{:%H:%M}",
-        "format-alt": "{:%Y-%m-%d}",
+        "format-alt": "{:%d-%m-%Y}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
-
+    "hyprland/language": {
+        "format": "{long}",
+	      "format-en": "en",
+	      "format-ru": "ru",
+	      "keyboard-name": "at-translated-set-2-keyboard"
+    },
     "battery": {
         "states": {
             "warning": 30,
